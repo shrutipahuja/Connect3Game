@@ -9,96 +9,317 @@
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/gameLayout"
         android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:background="@drawable/board_layout"
-        app:columnCount="3"
+        android:layout_height="410dp"
+        android:background="@drawable/grid_layout"
+        app:columnCount="6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:rowCount="3"
+        app:rowCount="6"
         android:layout_margin="20dp">
 
 
         <ImageView
             android:id="@+id/tile1"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
-           android:onClick="dropin"
+            android:onClick="dropin"
+            
             android:tag="0"/>
 
         <ImageView
             android:id="@+id/tile2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="30dp"
-            android:layout_marginTop="10dp"
-           android:onClick="dropin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
             android:tag="1"/>
 
         <ImageView
             android:id="@+id/tile3"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:layout_marginTop="10dp"
-           android:onClick="dropin"
-            android:tag="2"/>
+            android:onClick="dropin"
+            android:layout_marginLeft="0dp"
+            android:tag="2" />
 
         <ImageView
             android:id="@+id/tile4"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
-           android:onClick="dropin"
+            android:onClick="dropin"
             android:tag="3"/>
 
         <ImageView
             android:id="@+id/tile5"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="30dp"
-            android:layout_marginTop="10dp"
-           android:onClick="dropin"
-            android:tag="4"/>
-
-        <ImageView
-            android:id="@+id/tile6"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:layout_marginTop="10dp"
-           android:onClick="dropin"
+            android:onClick="dropin"
             android:tag="5"/>
 
         <ImageView
-            android:id="@+id/tile7"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:id="@+id/tile6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
-           android:onClick="dropin"
+            android:onClick="dropin"
             android:tag="6"/>
 
         <ImageView
-            android:id="@+id/tile8"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="30dp"
-            android:layout_marginTop="10dp"
+            android:id="@+id/tile7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
             android:onClick="dropin"
             android:tag="7"/>
 
         <ImageView
-            android:id="@+id/tile9"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:id="@+id/tile8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:layout_marginTop="10dp"
-           android:onClick="dropin"
-            android:tag="8" />
+            android:onClick="dropin"
+            android:tag="8"/>
+
+        <ImageView
+            android:id="@+id/tile9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:layout_marginLeft="0dp"
+            android:tag="9" />
+
+        <ImageView
+            android:id="@+id/tile10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="10"/>
+
+        <ImageView
+            android:id="@+id/tile11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="11"/>
+
+        <ImageView
+            android:id="@+id/tile12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="12"/>
+
+        <ImageView
+            android:id="@+id/tile13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="13"/>
+
+        <ImageView
+            android:id="@+id/tile14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="14"/>
+
+        <ImageView
+            android:id="@+id/tile15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:layout_marginLeft="0dp"
+            android:tag="15" />
+
+        <ImageView
+            android:id="@+id/tile16"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="16"/>
+
+        <ImageView
+            android:id="@+id/tile17"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="17"/>
+
+        <ImageView
+            android:id="@+id/tile18"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="18"/>
+
+        <ImageView
+            android:id="@+id/tile19"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="19"/>
+
+        <ImageView
+            android:id="@+id/tile20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="20"/>
+
+        <ImageView
+            android:id="@+id/tile21"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:layout_marginLeft="0dp"
+            android:tag="21" />
+
+        <ImageView
+            android:id="@+id/tile22"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="22"/>
+
+        <ImageView
+            android:id="@+id/tile23"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="23"/>
+
+        <ImageView
+            android:id="@+id/tile24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="24"/>
 
 
+        <ImageView
+            android:id="@+id/tile25"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="25"/>
+
+        <ImageView
+            android:id="@+id/tile26"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="26"/>
+
+        <ImageView
+            android:id="@+id/tile27"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:layout_marginLeft="0dp"
+            android:tag="27" />
+
+        <ImageView
+            android:id="@+id/tile28"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="28"/>
+
+        <ImageView
+            android:id="@+id/tile29"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="29"/>
+
+        <ImageView
+            android:id="@+id/tile30"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="dropin"
+            android:tag="30"/>
+
+        <ImageView
+            android:id="@+id/tile31"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:onClick="dropin"
+            android:tag="31"/>
+
+        <ImageView
+            android:id="@+id/tile32"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:onClick="dropin"
+            android:tag="32"/>
+
+        <ImageView
+            android:id="@+id/tile33"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="dropin"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:tag="33" />
+
+        <ImageView
+            android:id="@+id/tile34"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:onClick="dropin"
+            android:tag="34"/>
+
+        <ImageView
+            android:id="@+id/tile35"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:onClick="dropin"
+            android:tag="35"/>
+
+        <ImageView
+            android:id="@+id/tile36"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:onClick="dropin"
+            android:tag="36"/>
 
     </androidx.gridlayout.widget.GridLayout>
 
